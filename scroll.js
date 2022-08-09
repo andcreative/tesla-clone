@@ -9,10 +9,5 @@ const toggleNavigation = () => {
 new fullpage('#fullpage', {
 	autoScrolling: true,
 	scrollBar: true,
-	css3: true,
-	touchSensitivity: 2,
-    normalScrollElementTouchThreshold: 5,
-	keyboardScrolling: true,
-    animateAnchor: true,
-    recordHistory: true,
+
 })
