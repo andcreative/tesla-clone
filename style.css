@@ -26,7 +26,7 @@ html{
 header{
     display: grid;
     grid-template-columns: auto 1fr auto;
-    padding: 5px 20px;
+    padding: 15px 20px;
     position: fixed;
     top: 0;
     z-index: 2;
@@ -34,8 +34,8 @@ header{
 }
 
 a.logo{
-    height: 12px;
-    width: 100px;
+
+    width: 120px;
     color: inherit;
 }
 
@@ -63,8 +63,8 @@ section{
 }
 
 section .content{
-    opacity:0;
-    position: fixed;
+    opacity: 1;
+    /* position: fixed; */
     width: 100%;
     top: 0;
     transition: opacity .3s ease;
@@ -76,9 +76,9 @@ section .content{
     grid-template-rows: min-content auto min-content;
 }
 
-section.active .content{
+/* section.active .content{
     opacity: 1;
-}
+} */
 
 section h1{
     font-size: 3rem;
@@ -102,7 +102,6 @@ section .buttons a{
 
 section .buttons a:first-child{
     background-color: #3A3D41;
-
     color: #E4E4E3;
 }
 
@@ -112,6 +111,17 @@ section .buttons{
     margin: 0 40px;
 }
 
+section .buttons:last-child{
+    display: flex;
+    justify-content: center;
+}
+
+
+.menuBtn{
+    padding: 4px 15px;
+    background-color: hsla(0,0%,0%,.05);
+    border-radius: .5rem;
+}
 
 @media (min-width: 768px) {
     section .buttons{
