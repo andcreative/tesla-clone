@@ -111,12 +111,6 @@ section .buttons{
     margin: 0 40px;
 }
 
-section .buttons:last-child{
-    display: flex;
-    justify-content: center;
-}
-
-
 .menuBtn{
     padding: 4px 15px;
     background-color: hsla(0,0%,0%,.05);
